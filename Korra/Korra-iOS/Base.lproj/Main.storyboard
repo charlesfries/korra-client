@@ -127,7 +127,7 @@
         <!--Settings-->
         <scene sceneID="L4K-Xu-J4D">
             <objects>
-                <tableViewController title="Settings" id="LE7-Nc-n6y" sceneMemberID="viewController">
+                <tableViewController title="Settings" id="LE7-Nc-n6y" customClass="SettingsViewController" customModule="Korra_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="J5l-Vg-NK7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -164,6 +164,9 @@
                             <outlet property="delegate" destination="LE7-Nc-n6y" id="TWg-hC-MhG"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="serverIP" destination="Ah0-sW-lJ2" id="5u0-5X-CbU"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OcR-n3-DHv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

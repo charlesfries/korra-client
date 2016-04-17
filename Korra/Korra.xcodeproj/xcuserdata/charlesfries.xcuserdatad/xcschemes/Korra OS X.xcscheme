@@ -15,9 +15,9 @@
             hideIssues = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "770C85831CBCEF8100618B80"
+               BlueprintIdentifier = "78A6BBCA1ADCB5EE00554D13"
                BuildableName = "Korra.app"
-               BlueprintName = "Korra"
+               BlueprintName = "Korra OS X"
                ReferencedContainer = "container:Korra.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,9 +33,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "770C85831CBCEF8100618B80"
+            BlueprintIdentifier = "78A6BBCA1ADCB5EE00554D13"
             BuildableName = "Korra.app"
-            BlueprintName = "Korra"
+            BlueprintName = "Korra OS X"
             ReferencedContainer = "container:Korra.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,9 +56,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "770C85831CBCEF8100618B80"
+            BlueprintIdentifier = "78A6BBCA1ADCB5EE00554D13"
             BuildableName = "Korra.app"
-            BlueprintName = "Korra"
+            BlueprintName = "Korra OS X"
             ReferencedContainer = "container:Korra.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -75,9 +75,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "770C85831CBCEF8100618B80"
+            BlueprintIdentifier = "78A6BBCA1ADCB5EE00554D13"
             BuildableName = "Korra.app"
-            BlueprintName = "Korra"
+            BlueprintName = "Korra OS X"
             ReferencedContainer = "container:Korra.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

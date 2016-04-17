@@ -12,9 +12,11 @@
 		770C85A41CBCEFD800618B80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770C85A31CBCEFD800618B80 /* Assets.xcassets */; };
 		770C85A71CBCEFD800618B80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 770C85A51CBCEFD800618B80 /* LaunchScreen.storyboard */; };
 		770C85B31CBCF00500618B80 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 770C85B21CBCF00500618B80 /* NotificationCenter.framework */; };
-		770C85B61CBCF00500618B80 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C85B51CBCF00500618B80 /* TodayViewController.swift */; };
+		770C85B61CBCF00500618B80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C85B51CBCF00500618B80 /* ViewController.swift */; };
 		770C85B91CBCF00500618B80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 770C85B71CBCF00500618B80 /* Main.storyboard */; };
-		770C85BD1CBCF00500618B80 /* Korra-iOS Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 770C85B01CBCF00500618B80 /* Korra-iOS Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		770C85BD1CBCF00500618B80 /* Korra iOS Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 770C85B01CBCF00500618B80 /* Korra iOS Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		77D9D3681CC3848600525CC5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D9D3671CC3848600525CC5 /* SettingsViewController.swift */; };
+		77D9D36A1CC3850F00525CC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D9D3691CC3850F00525CC5 /* AppDelegate.swift */; };
 		78A6BBD11ADCB5EE00554D13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A6BBD01ADCB5EE00554D13 /* AppDelegate.swift */; };
 		78A6BBD31ADCB5EE00554D13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A6BBD21ADCB5EE00554D13 /* Images.xcassets */; };
 		78A6BBD61ADCB5EE00554D13 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78A6BBD41ADCB5EE00554D13 /* MainMenu.xib */; };
@@ -39,7 +41,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				770C85BD1CBCF00500618B80 /* Korra-iOS Widget.appex in Embed App Extensions */,
+				770C85BD1CBCF00500618B80 /* Korra iOS Widget.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,17 +49,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		770C859A1CBCEFD800618B80 /* Korra-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Korra-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		770C859A1CBCEFD800618B80 /* Korra iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Korra iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		770C859E1CBCEFD800618B80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		770C85A11CBCEFD800618B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		770C85A31CBCEFD800618B80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		770C85A61CBCEFD800618B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		770C85A81CBCEFD800618B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		770C85B01CBCF00500618B80 /* Korra-iOS Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Korra-iOS Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		770C85B01CBCF00500618B80 /* Korra iOS Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Korra iOS Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		770C85B21CBCF00500618B80 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
-		770C85B51CBCF00500618B80 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		770C85B51CBCF00500618B80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		770C85B81CBCF00500618B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		770C85BA1CBCF00500618B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77D9D3671CC3848600525CC5 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		77D9D3691CC3850F00525CC5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78A6BBCB1ADCB5EE00554D13 /* Korra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Korra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A6BBCF1ADCB5EE00554D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78A6BBD01ADCB5EE00554D13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,15 +97,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		770C859B1CBCEFD800618B80 /* Korra-iOS */ = {
+		770C859B1CBCEFD800618B80 /* Korra iOS */ = {
 			isa = PBXGroup;
 			children = (
+				77D9D3691CC3850F00525CC5 /* AppDelegate.swift */,
 				770C859E1CBCEFD800618B80 /* ViewController.swift */,
+				77D9D3671CC3848600525CC5 /* SettingsViewController.swift */,
 				770C85A01CBCEFD800618B80 /* Main.storyboard */,
-				770C85A51CBCEFD800618B80 /* LaunchScreen.storyboard */,
-				770C85A31CBCEFD800618B80 /* Assets.xcassets */,
-				770C85A81CBCEFD800618B80 /* Info.plist */,
+				77D9D36B1CC3852E00525CC5 /* Supporting Files */,
 			);
+			name = "Korra iOS";
 			path = "Korra-iOS";
 			sourceTree = "<group>";
 		};
@@ -113,22 +118,51 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		770C85B41CBCF00500618B80 /* Widget */ = {
+		770C85B41CBCF00500618B80 /* Korra iOS Widget */ = {
 			isa = PBXGroup;
 			children = (
-				770C85B51CBCF00500618B80 /* TodayViewController.swift */,
+				770C85B51CBCF00500618B80 /* ViewController.swift */,
 				770C85B71CBCF00500618B80 /* Main.storyboard */,
+				77D9D36D1CC3855100525CC5 /* Supporting Files */,
+			);
+			name = "Korra iOS Widget";
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		77D9D36B1CC3852E00525CC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				770C85A51CBCEFD800618B80 /* LaunchScreen.storyboard */,
+				770C85A31CBCEFD800618B80 /* Assets.xcassets */,
+				770C85A81CBCEFD800618B80 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77D9D36C1CC3854100525CC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78A6BBD41ADCB5EE00554D13 /* MainMenu.xib */,
+				78A6BBD21ADCB5EE00554D13 /* Images.xcassets */,
+				78A6BBCF1ADCB5EE00554D13 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77D9D36D1CC3855100525CC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				770C85BA1CBCF00500618B80 /* Info.plist */,
 			);
-			path = Widget;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		78A6BBC21ADCB5EE00554D13 = {
 			isa = PBXGroup;
 			children = (
-				78A6BBCD1ADCB5EE00554D13 /* Korra-OSX */,
-				770C859B1CBCEFD800618B80 /* Korra-iOS */,
-				770C85B41CBCF00500618B80 /* Widget */,
+				78A6BBCD1ADCB5EE00554D13 /* Korra OS X */,
+				770C859B1CBCEFD800618B80 /* Korra iOS */,
+				770C85B41CBCF00500618B80 /* Korra iOS Widget */,
 				770C85B11CBCF00500618B80 /* Frameworks */,
 				78A6BBCC1ADCB5EE00554D13 /* Products */,
 			);
@@ -138,32 +172,30 @@
 			isa = PBXGroup;
 			children = (
 				78A6BBCB1ADCB5EE00554D13 /* Korra.app */,
-				770C859A1CBCEFD800618B80 /* Korra-iOS.app */,
-				770C85B01CBCF00500618B80 /* Korra-iOS Widget.appex */,
+				770C859A1CBCEFD800618B80 /* Korra iOS.app */,
+				770C85B01CBCF00500618B80 /* Korra iOS Widget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		78A6BBCD1ADCB5EE00554D13 /* Korra-OSX */ = {
+		78A6BBCD1ADCB5EE00554D13 /* Korra OS X */ = {
 			isa = PBXGroup;
 			children = (
 				78A6BBD01ADCB5EE00554D13 /* AppDelegate.swift */,
 				78A6BBEB1ADCDDDC00554D13 /* ViewController.swift */,
 				78A6BBEC1ADCDDDC00554D13 /* Main.xib */,
-				78A6BBD41ADCB5EE00554D13 /* MainMenu.xib */,
-				78A6BBD21ADCB5EE00554D13 /* Images.xcassets */,
-				78A6BBCF1ADCB5EE00554D13 /* Info.plist */,
+				77D9D36C1CC3854100525CC5 /* Supporting Files */,
 			);
-			name = "Korra-OSX";
+			name = "Korra OS X";
 			path = Quotes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		770C85991CBCEFD800618B80 /* Korra-iOS */ = {
+		770C85991CBCEFD800618B80 /* Korra iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 770C85A91CBCEFD800618B80 /* Build configuration list for PBXNativeTarget "Korra-iOS" */;
+			buildConfigurationList = 770C85A91CBCEFD800618B80 /* Build configuration list for PBXNativeTarget "Korra iOS" */;
 			buildPhases = (
 				770C85961CBCEFD800618B80 /* Sources */,
 				770C85971CBCEFD800618B80 /* Frameworks */,
@@ -175,14 +207,14 @@
 			dependencies = (
 				770C85BC1CBCF00500618B80 /* PBXTargetDependency */,
 			);
-			name = "Korra-iOS";
+			name = "Korra iOS";
 			productName = "Korra-iOS";
-			productReference = 770C859A1CBCEFD800618B80 /* Korra-iOS.app */;
+			productReference = 770C859A1CBCEFD800618B80 /* Korra iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		770C85AF1CBCF00500618B80 /* Korra-iOS Widget */ = {
+		770C85AF1CBCF00500618B80 /* Korra iOS Widget */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 770C85BE1CBCF00500618B80 /* Build configuration list for PBXNativeTarget "Korra-iOS Widget" */;
+			buildConfigurationList = 770C85BE1CBCF00500618B80 /* Build configuration list for PBXNativeTarget "Korra iOS Widget" */;
 			buildPhases = (
 				770C85AC1CBCF00500618B80 /* Sources */,
 				770C85AD1CBCF00500618B80 /* Frameworks */,
@@ -192,14 +224,14 @@
 			);
 			dependencies = (
 			);
-			name = "Korra-iOS Widget";
+			name = "Korra iOS Widget";
 			productName = Widget;
-			productReference = 770C85B01CBCF00500618B80 /* Korra-iOS Widget.appex */;
+			productReference = 770C85B01CBCF00500618B80 /* Korra iOS Widget.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		78A6BBCA1ADCB5EE00554D13 /* Korra */ = {
+		78A6BBCA1ADCB5EE00554D13 /* Korra OS X */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78A6BBE51ADCB5EE00554D13 /* Build configuration list for PBXNativeTarget "Korra" */;
+			buildConfigurationList = 78A6BBE51ADCB5EE00554D13 /* Build configuration list for PBXNativeTarget "Korra OS X" */;
 			buildPhases = (
 				78A6BBC71ADCB5EE00554D13 /* Sources */,
 				78A6BBC81ADCB5EE00554D13 /* Frameworks */,
@@ -209,7 +241,7 @@
 			);
 			dependencies = (
 			);
-			name = Korra;
+			name = "Korra OS X";
 			productName = Quotes;
 			productReference = 78A6BBCB1ADCB5EE00554D13 /* Korra.app */;
 			productType = "com.apple.product-type.application";
@@ -223,7 +255,7 @@
 				LastSwiftMigration = 0730;
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = "Razeware LLC";
+				ORGANIZATIONNAME = "Charles Fries";
 				TargetAttributes = {
 					770C85991CBCEFD800618B80 = {
 						CreatedOnToolsVersion = 7.3;
@@ -251,9 +283,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				78A6BBCA1ADCB5EE00554D13 /* Korra */,
-				770C85991CBCEFD800618B80 /* Korra-iOS */,
-				770C85AF1CBCF00500618B80 /* Korra-iOS Widget */,
+				78A6BBCA1ADCB5EE00554D13 /* Korra OS X */,
+				770C85991CBCEFD800618B80 /* Korra iOS */,
+				770C85AF1CBCF00500618B80 /* Korra iOS Widget */,
 			);
 		};
 /* End PBXProject section */
@@ -294,7 +326,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D9D36A1CC3850F00525CC5 /* AppDelegate.swift in Sources */,
 				770C859F1CBCEFD800618B80 /* ViewController.swift in Sources */,
+				77D9D3681CC3848600525CC5 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				770C85B61CBCF00500618B80 /* TodayViewController.swift in Sources */,
+				770C85B61CBCF00500618B80 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +354,7 @@
 /* Begin PBXTargetDependency section */
 		770C85BC1CBCF00500618B80 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 770C85AF1CBCF00500618B80 /* Korra-iOS Widget */;
+			target = 770C85AF1CBCF00500618B80 /* Korra iOS Widget */;
 			targetProxy = 770C85BB1CBCF00500618B80 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -533,7 +567,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		770C85A91CBCEFD800618B80 /* Build configuration list for PBXNativeTarget "Korra-iOS" */ = {
+		770C85A91CBCEFD800618B80 /* Build configuration list for PBXNativeTarget "Korra iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				770C85AA1CBCEFD800618B80 /* Debug */,
@@ -542,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		770C85BE1CBCF00500618B80 /* Build configuration list for PBXNativeTarget "Korra-iOS Widget" */ = {
+		770C85BE1CBCF00500618B80 /* Build configuration list for PBXNativeTarget "Korra iOS Widget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				770C85BF1CBCF00500618B80 /* Debug */,
@@ -560,7 +594,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78A6BBE51ADCB5EE00554D13 /* Build configuration list for PBXNativeTarget "Korra" */ = {
+		78A6BBE51ADCB5EE00554D13 /* Build configuration list for PBXNativeTarget "Korra OS X" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				78A6BBE61ADCB5EE00554D13 /* Debug */,

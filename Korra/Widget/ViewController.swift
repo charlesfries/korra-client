@@ -2,7 +2,7 @@
 import UIKit
 import NotificationCenter
 
-class TodayViewController: UIViewController, NCWidgetProviding {
+class ViewController: UIViewController, NCWidgetProviding {
     
     var serverIP = "10.46.1.179"
     
@@ -60,7 +60,7 @@ class TodayViewController: UIViewController, NCWidgetProviding {
     
         
     override func viewDidLoad() {
-        self.preferredContentSize = CGSizeMake(0, 77);
+        self.preferredContentSize = CGSizeMake(0, 49);
     }
     
     func widgetPerformUpdateWithCompletionHandler(completionHandler: ((NCUpdateResult) -> Void)) {

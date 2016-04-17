@@ -14,18 +14,10 @@ class QuotesViewController: NSViewController {
     
     @IBOutlet weak var progress: NSProgressIndicator!
     
-    override func viewDidLoad() {
-        deskLampIntensity.action = "changed"
-    }
-    
     override func viewDidAppear() {
         deskLampColor.color = getRandomColor()
         tallLampColor.color = getRandomColor()
         allLightsColor.color = getRandomColor()
-    }
-    
-    func changed() {
-        print("Changed")
     }
     
     // Actions

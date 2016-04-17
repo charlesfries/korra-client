@@ -1,12 +1,6 @@
 
 import UIKit
 
-@UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-    
-    var window: UIWindow?
-}
-
 class ViewController: UITableViewController {
     
     var serverIP = "10.46.1.179"
