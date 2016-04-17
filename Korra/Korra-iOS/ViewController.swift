@@ -9,6 +9,11 @@ class ViewController: UITableViewController {
     
     @IBOutlet var allLightsIntensity: UISlider!
     
+    @IBOutlet var deskLampIntensity: UISlider!
+    
+    @IBOutlet var tallLampIntensity: UISlider!
+    
+    // All Lights
     @IBAction func allLightsOn(sender: AnyObject) {
         updatePower("Desk", flag: true)
         updatePower("Tall", flag: true)
@@ -17,11 +22,33 @@ class ViewController: UITableViewController {
         updatePower("Desk", flag: false)
         updatePower("Tall", flag: false)
     }
-    
     @IBAction func allLightsUpdateIntensity(sender: AnyObject) {
         updateIntensity("Desk", intensity: Int(allLightsIntensity.value*100))
         updateIntensity("Tall", intensity: Int(allLightsIntensity.value*100))
     }
+    
+    // Desk Lamp
+    @IBAction func deskLampOn(sender: AnyObject) {
+        updatePower("Desk", flag: true)
+    }
+    @IBAction func deskLampOff(sender: AnyObject) {
+        updatePower("Desk", flag: false)
+    }
+    @IBAction func deskLampUpdateIntensity(sender: AnyObject) {
+        updateIntensity("Desk", intensity: Int(deskLampIntensity.value*100))
+    }
+    
+    // Tall Lamp
+    @IBAction func tallLampOn(sender: AnyObject) {
+        updatePower("Tall", flag: true)
+    }
+    @IBAction func tallLampOff(sender: AnyObject) {
+        updatePower("Tall", flag: false)
+    }
+    @IBAction func tallLampUpdateIntensity(sender: AnyObject) {
+        updateIntensity("Tall", intensity: Int(tallLampIntensity.value*100))
+    }
+    
     
     func updatePower(var device: String, flag: Bool) {
         if (device == "Desk") {
@@ -57,6 +84,7 @@ class ViewController: UITableViewController {
             //print(NSString(data: data!, encoding: NSUTF8StringEncoding))
             self.activity.stopAnimating()
         }
+        
     }
 
 }

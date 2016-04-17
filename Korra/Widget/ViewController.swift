@@ -2,7 +2,7 @@
 import UIKit
 import NotificationCenter
 
-class ViewController: UIViewController, NCWidgetProviding {
+class TodayViewController: UIViewController, NCWidgetProviding {
     
     var serverIP = "10.46.1.179"
     

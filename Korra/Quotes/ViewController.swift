@@ -1,6 +1,5 @@
 
 import Cocoa
-import WebKit
 
 class QuotesViewController: NSViewController {
     
