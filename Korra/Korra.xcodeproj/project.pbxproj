@@ -17,6 +17,7 @@
 		770C85BD1CBCF00500618B80 /* Korra iOS Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 770C85B01CBCF00500618B80 /* Korra iOS Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		77D9D3681CC3848600525CC5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D9D3671CC3848600525CC5 /* SettingsViewController.swift */; };
 		77D9D36A1CC3850F00525CC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D9D3691CC3850F00525CC5 /* AppDelegate.swift */; };
+		77D9D36F1CC3881F00525CC5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 77D9D36E1CC3881F00525CC5 /* Icon.png */; };
 		78A6BBD11ADCB5EE00554D13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A6BBD01ADCB5EE00554D13 /* AppDelegate.swift */; };
 		78A6BBD31ADCB5EE00554D13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A6BBD21ADCB5EE00554D13 /* Images.xcassets */; };
 		78A6BBD61ADCB5EE00554D13 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78A6BBD41ADCB5EE00554D13 /* MainMenu.xib */; };
@@ -62,6 +63,7 @@
 		770C85BA1CBCF00500618B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77D9D3671CC3848600525CC5 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		77D9D3691CC3850F00525CC5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77D9D36E1CC3881F00525CC5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		78A6BBCB1ADCB5EE00554D13 /* Korra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Korra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A6BBCF1ADCB5EE00554D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78A6BBD01ADCB5EE00554D13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				770C85A51CBCEFD800618B80 /* LaunchScreen.storyboard */,
 				770C85A31CBCEFD800618B80 /* Assets.xcassets */,
 				770C85A81CBCEFD800618B80 /* Info.plist */,
+				77D9D36E1CC3881F00525CC5 /* Icon.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 					};
 					78A6BBCA1ADCB5EE00554D13 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 48386QZ38R;
 					};
 				};
 			};
@@ -295,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D9D36F1CC3881F00525CC5 /* Icon.png in Resources */,
 				770C85A71CBCEFD800618B80 /* LaunchScreen.storyboard in Resources */,
 				770C85A41CBCEFD800618B80 /* Assets.xcassets in Resources */,
 				770C85A21CBCEFD800618B80 /* Main.storyboard in Resources */,

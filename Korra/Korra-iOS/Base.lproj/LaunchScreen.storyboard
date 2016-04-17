@@ -17,17 +17,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Korra" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXZ-GM-RAB">
-                                <rect key="frame" x="256" y="277" width="89" height="46"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="z6K-ig-hxe">
+                                <rect key="frame" x="150" y="150" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="gJe-UD-Z4E"/>
+                                    <constraint firstAttribute="width" constant="300" id="sZF-5u-DUF"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="dXZ-GM-RAB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="lN4-fC-ro4"/>
-                            <constraint firstItem="dXZ-GM-RAB" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="tUV-Kl-N6P"/>
+                            <constraint firstItem="z6K-ig-hxe" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Xbm-bX-UjA"/>
+                            <constraint firstItem="z6K-ig-hxe" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="zve-1F-MU8"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -36,4 +37,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Icon.png" width="1024" height="1024"/>
+    </resources>
 </document>
